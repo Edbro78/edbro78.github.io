@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pier Økonomisk Rådgivning</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="logo.jpg" alt="Pier Økonomisk Rådgivning Logo">
+        <nav>
+            <ul>
+                <li><a href="#hero">Hjem</a></li>
+                <li><a href="#services">Tjenester</a></li>
+                <li><a href="#about">Om Oss</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="content">
+            <h1>Pier Økonomisk Rådgivning</h1>
+            <p>Din partner for økonomisk suksess i et globalt marked</p>
+            <a href="#contact" class="btn">Ta Kontakt</a>
+        </div>
+    </section>
+
+    <section id="services">
+        <h2>Våre Tjenester</h2>
+        <div class="card-container">
+            <div class="card">
+                <h3>Finansstrategi</h3>
+                <p>Skreddersydde løsninger for multinasjonale bedrifter.</p>
+            </div>
+            <div class="card">
+                <h3>Risikostyring</h3>
+                <p>Minimer risiko og maksimer avkastning.</p>
+            </div>
+            <div class="card">
+                <h3>Skatteplanlegging</h3>
+                <p>Optimaliser din globale skatteposisjon.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>Om Oss</h2>
+        <p>Pier Økonomisk Rådgivning er et ledende konsulentselskap som spesialiserer seg på økonomisk rådgivning for store multinasjonale bedrifter. Med ekspertise på tvers av landegrenser hjelper vi deg med å navigere i komplekse finansielle landskap.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Kontakt Oss</h2>
+        <p>E-post: kontakt@pierokonomi.com | Telefon: +47 123 45 678</p>
+    </section>
+
+    <footer>
+        <p>© 2025 Pier Økonomisk Rådgivning. Alle rettigheter reservert.</p>
+    </footer>
+
+    <script>
+        // Header scroll effect
+        window.addEventListener('scroll', () => {
+            const header = document.querySelector('header');
+            header.classList.toggle('scrolled', window.scrollY > 50);
+        });
+    </script>
+</body>
+</html>
